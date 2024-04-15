@@ -21,15 +21,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Project structure
-src
-├── public 公共资源
-├── app 路由
-│   ├── favicon.ico 图标
-│   ├── layout.tsx 布局
-│   └── page.tsx 页面
-├── components 公共组件
-├── styles 公共样式
-│   └── globals.css 全局 css
+
+src  
+├── public 公共资源  
+├── app 路由  
+│ ├── favicon.ico 图标  
+│ ├── layout.tsx 布局  
+│ └── page.tsx 页面  
+├── components 公共组件  
+├── styles 公共样式  
+│ └── globals.css 全局 css  
 └── utils 工具
 
 ## Learn More
