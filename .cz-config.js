@@ -15,12 +15,10 @@ module.exports = {
         },
         {
             value: 'style',
-
             name: '💄 style:     代码格式(不影响代码运行的变动)'
         },
         {
             value: 'refactor',
-
             name: '♻️  refactor:    重构 (既不增加feature, 也不是修复bug)'
         },
         {
