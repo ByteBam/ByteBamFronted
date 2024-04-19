@@ -100,7 +100,7 @@ const tryTimeEnvResolver = {
 
 export const request = requestFactory.create({
   baseUrl: envVariable.NEXT_PUBLIC_BASE_URL,
-  tryTime: tryTimeEnvResolver[envVariable.NEXT_PUBLIC_NODE_ENV],
+  tryTime: tryTimeEnvResolver[envVariable.NODE_ENV],
   reqInterceptor(init) {
     const { headers, ...rest } = init;
 
