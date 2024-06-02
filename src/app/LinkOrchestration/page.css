@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 50px;
+    margin: 12px;
+    border: 2px solid skyblue;
+    background: white;
+    border-radius: 5px;
+}
+
+.link-orchestration{
+    width: 98%;
+    height: 150px;
+    margin: 12px;
+    background: white;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+}
+
+.link-request{
+    display: flex;
+    width: 98%;
+    margin: 12px;
+    background: white;
+    /* border: 2px solid skyblue;
+    border-radius: 5px; */
+}
+.request-parameters{
+    /* widthZXCC: 50%; */
+    height: 100%;
+    background: rgb(255, 255, 210);
+    border: 1px solid rgb(226, 255, 221);
+}
+.request-example{
+    /* width: 50%; */
+    height: 100%;
+    background: rgb(227, 255, 219);
+    border: 1px solid rgb(205, 255, 196);
+}
+.link-responseparameters{
+    display: flex;
+    width: 98%;
+    /* height: 400px;ZXXXXXXXXXXXZ */
+    margin: 12px;
+    /* border: 2px solid skyblue; */
+    /* border-radius: 5px; */
+}
+.response-parameters{
+    /* width: 50%; */
+    height: 100%;
+    background: rgb(255, 215, 194);
+    border: 1px solid rgb(255, 237, 196);
+}
+.response-example{
+    /* width: 50%; */
+    height: 100%;
+    background: rgb(207, 253, 255);
+    border: 1px solid rgb(181, 255, 248);
+}
